@@ -1,0 +1,18 @@
+<p>
+  users works!
+</p>
+
+<div class="container">
+  <div class="row" *ngFor="let user of users">
+    <div class="card">
+
+      <div class="card-block">
+        <h4 class="card-title">{{ user.fullname }}</h4>
+        <p class="card-text">{{user.email}}</p>
+
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+</div>
